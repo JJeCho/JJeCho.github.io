@@ -1,0 +1,46 @@
+/* Projects.css */
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: horizontal;
+    background: white   ;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  .project-description {
+    color: slategray;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+
+  .project-image img {
+    max-width: 500px; /* Adjust the size as needed */
+    height: auto;
+  }
+
+  .container-title {
+    font-size: 2rem;
+    color: black;
+    padding: 0rem 1rem;
+  }

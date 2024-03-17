@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: royalblue;
+    color: #fff;
+    padding: 0rem 1rem; 
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+
+  .nav-link a {
+    color: white;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .navbar {
+      padding: 0.5rem 0.5rem; /* Adjust padding for smaller screens */
+    }
+  }

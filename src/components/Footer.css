@@ -1,0 +1,19 @@
+/* Footer.css */
+
+.footer {
+  background: slategray;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer.visible {
+  opacity: 1;
+}
