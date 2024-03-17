@@ -1,0 +1,52 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.resume h2 {
+    padding: 1rem;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+.education {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.education-description {
+    font-style: italic;
+    color: black;
+}
+
+.education-description strong {
+    font-size: 1.3rem;
+}
+
+.experience {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.employment-period {
+    font-style: italic;
+    color: black;
+}
+
+.employment-period strong {
+    color: black;
+}
+
+.job-tasks {
+    list-style-type: square;
+    margin-left: 20px;
+}

@@ -9,6 +9,8 @@
   .project {
     display: flex;
     flex-direction: horizontal;
+    align-items: center;
+    justify-content: space-between;
     background: white   ;
     padding: 20px;
     border-radius: 5px;
@@ -35,10 +37,11 @@
   }
 
   .project-image img {
-    max-width: 500px; /* Adjust the size as needed */
-    height: auto;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
   }
-
+  
   .container-title {
     font-size: 2rem;
     color: black;

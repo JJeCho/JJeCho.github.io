@@ -1,12 +1,13 @@
 // About.js
 
 import React from "react";
+import "./About.css";
 
 const About = () => {
   return (
     <div className="about-container">
       <h1 className="about-header">About Me</h1>
-      <p className="">
+      <p className="paragraph1">
         In the vast expanse of cyberspace, I see web development not just as
         lines of code, but as a conduit for human expression and connection. As
         an aspiring web developer, I am not merely crafting websites; I am
@@ -17,19 +18,19 @@ const About = () => {
         tools of the trade but to leave a meaningful imprint on the digital
         realm.
       </p>
-      <p className="">
+      <p className="paragraph2">
         Amidst the hustle and bustle of technology, I find solace in the
         tranquil beauty of nature. Whether it's casting a line into a glassy
         lake or hiking through forests and mountains, I'm at my happiest when surrounded
         by the great outdoors.
       </p>
-      <p className="">
+      <p className="paragraph3">
         When I'm not diving into the world of web development, you can often
         find me exploring new fishing spots or simply soaking up the serenity of
         nature. These moments of quiet reflection not only rejuvenate me but
         also inspire my creativity.
       </p>
-      <p className="">
+      <p className="paragraph4">
         So, if you're ever looking to swap tech talk for tales of the great
         outdoors, I'm all ears. Let's cast a line or go hiking and see where the currents of
         conversation take us.

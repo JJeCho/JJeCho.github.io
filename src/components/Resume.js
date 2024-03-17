@@ -1,8 +1,9 @@
 import React from 'react';
+import './Resume.css';
 
 const Resume = () => {
   return (
-    <div>
+    <div className ='resume'>
       <h2>Education</h2>
       <RenderDegree
         school="California State University, Long Beach"
@@ -24,6 +25,7 @@ const Resume = () => {
       />
       <h2>Experience</h2>
       <RenderExperience
+      title="Ecommerce and Business Administration Specialist"
         company="Traveland"
         date="March 2022 – Present"
         location="Cerritos, California"
@@ -34,6 +36,7 @@ const Resume = () => {
         ]}
       />
       <RenderExperience
+      title="Division Advisor"
         company="Uniqlo"
         date="March 2015 - March 2022"
         location="Cerritos, California"
@@ -49,18 +52,20 @@ const Resume = () => {
 };
 
 const RenderDegree = ({ school, date, degree, location }) => (
-  <p>
+  <div className='education'>
+    <p className='education-description'>
     <strong>{school}</strong> - {date}<br />
     {degree}<br />
     {location}
-  </p>
+    </p>
+  </div>
 );
 
-const RenderExperience = ({ company, date, location, tasks }) => (
-  <div>
-    <h3>{company}</h3>
-    <p><strong>{company}</strong> - {date}<br />{location}</p>
-    <ul>
+const RenderExperience = ({ title, company, date, location, tasks }) => (
+  <div className='experience'>
+    <h3 className='title'>{title}</h3>
+    <p className='employment-period'><strong>{company}</strong> - {date}<br />{location}</p>
+    <ul className='job-tasks'>
       {tasks.map((task, index) => <li key={index}>{task}</li>)}
     </ul>
   </div>

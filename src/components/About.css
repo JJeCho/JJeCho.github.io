@@ -1,0 +1,31 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white   ;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.about-header {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.paragraph1 {
+
+}
+
+.paragraph2 {
+
+}
+
+.paragraph3 {
+
+}
+
+.paragraph4{
+
+}
