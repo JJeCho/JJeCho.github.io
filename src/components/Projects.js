@@ -10,6 +10,12 @@ const Projects = () => {
       link: "",
     },
     {
+      title: "Florida Man Tracker",
+      description: "A MERN Full Stack Web Scraping application that scrapes for data from the internet about Florida Men and their activities, stores it in a database, and displays stored news entries",
+      imageUrl: "https://source.unsplash.com/random/?florida,man",
+      link: "",
+    },
+    {
       title: "Day of Calendar",
       description: "A React application that utilizes various 3rd Party API's to collect and display information about holidays, historical events, and more about any given day.",
       imageUrl: "https://source.unsplash.com/random/?calendar",
