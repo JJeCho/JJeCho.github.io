@@ -7,13 +7,13 @@ const Projects = () => {
       title: "Wordle+",
       description: "A Full Stack Wordle game built using the MERN Stack. Supports words of different lengths and themes.",
       imageUrl: "https://source.unsplash.com/random/?wordle",
-      link: "",
+      link: "https://github.com/MILKS3NPAI/WordleProject",
     },
     {
       title: "Florida Man Tracker",
       description: "A MERN Full Stack Web Scraping application that scrapes for data from the internet about Florida Men and their activities, stores it in a database, and displays stored news entries",
       imageUrl: "https://source.unsplash.com/random/?florida,man",
-      link: "",
+      link: "https://github.com/JJeCho/web-scraper-floridaman",
     },
     {
       title: "Day of Calendar",
@@ -25,7 +25,7 @@ const Projects = () => {
       title: "50 Projects in 50 Days",
       description: "A collection of 50 projects in HTML, CSS, and JS that I completed to sharpen my web development skills. Completed following along with Brad Traversey's 50 Projects in 50 Days.",
       imageUrl: "https://source.unsplash.com/random/?html,css,js",
-      link: "",
+      link: "https://github.com/JJeCho/50Projects",
     },
   ];
 
