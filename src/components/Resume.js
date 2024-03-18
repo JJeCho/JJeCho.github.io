@@ -4,7 +4,7 @@ import './Resume.css';
 const Resume = () => {
   return (
     <div className ='resume'>
-      <h2>Education</h2>
+      <h1 className='education-title'>Education</h1>
       <RenderDegree
         school="California State University, Long Beach"
         date="Dec 2023"
@@ -23,7 +23,7 @@ const Resume = () => {
         degree="High School Diploma"
         location="Cerritos, California"
       />
-      <h2>Experience</h2>
+      <h1 className='experience-title'>Experience</h1>
       <RenderExperience
       title="Ecommerce and Business Administration Specialist"
         company="Traveland"
