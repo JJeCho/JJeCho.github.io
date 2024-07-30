@@ -11,6 +11,7 @@ const Resume = () => {
         degree="Bachelor of Science in Computer Science"
         location="Long Beach, California"
       />
+      {/**
       <RenderDegree
         school="Cerritos College"
         date="June 2020"
@@ -23,6 +24,7 @@ const Resume = () => {
         degree="High School Diploma"
         location="Cerritos, California"
       />
+       */}
       <h1 className='experience-title'>Experience</h1>
       <RenderExperience
       title="Ecommerce and Business Administration Specialist"
@@ -30,9 +32,21 @@ const Resume = () => {
         date="March 2022 – Present"
         location="Cerritos, California"
         tasks={[
+          'Created a suite of sales data analysis tools using Python (Pandas, NumPy, Seaborn, Matplotlib) to manage and visualize diverse data sources such as inventory, sales data, and Google Analytics reports',
+          'Developed a full-stack web application using Flask and React, optimizing e-commerce operations including order management and integration with ShipEngine API',
           'Managed and maintained the company\'s website, ensuring a seamless online shopping experience',
           'Oversaw e-commerce operations, including order processing, inventory management, and shipping logistics',
           'Executed business administration tasks, contributing to the overall efficiency of the company'
+        ]}
+      />
+      <RenderExperience
+      title="Coding Instructor"
+        company="Coding Minds"
+        date="May 2024 – Present"
+        location="Cerritos, California"
+        tasks={[
+          'Designed and delivered curriculum in web development and advanced algorithms, engaging K-12 students and preparing them for competitive programming contests',
+          'Instructed intensive summer camp programs focused on Python programming, Web Development, Machine Learning, Generative AI, and AP Computer Science exam and USACO preparation courses',
         ]}
       />
       <RenderExperience

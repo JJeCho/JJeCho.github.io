@@ -1,4 +1,16 @@
 /* Projects.css */
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.filter-container h3 {
+  margin-bottom: 10px;
+}
+
+.filter-container label {
+  display: block;
+  margin-bottom: 5px;
+}
 
 .projects {
     display: flex;
