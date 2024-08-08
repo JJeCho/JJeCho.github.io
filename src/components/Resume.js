@@ -27,16 +27,14 @@ const Resume = () => {
        */}
       <h1 className='experience-title'>Experience</h1>
       <RenderExperience
-      title="Ecommerce and Business Administration Specialist"
+      title="Ecommerce and Business Administration Specialist (Freelance)"
         company="Traveland"
         date="March 2022 – Present"
         location="Cerritos, California"
         tasks={[
+          'Worked closely with management to translate business requirements into effective technical implementations.',
           'Created a suite of sales data analysis tools using Python (Pandas, NumPy, Seaborn, Matplotlib) to manage and visualize diverse data sources such as inventory, sales data, and Google Analytics reports',
           'Developed a full-stack web application using Flask and React, optimizing e-commerce operations including order management and integration with ShipEngine API',
-          'Managed and maintained the company\'s website, ensuring a seamless online shopping experience',
-          'Oversaw e-commerce operations, including order processing, inventory management, and shipping logistics',
-          'Executed business administration tasks, contributing to the overall efficiency of the company'
         ]}
       />
       <RenderExperience
